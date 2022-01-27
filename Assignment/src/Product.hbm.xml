@@ -1,0 +1,16 @@
+        
+     <hibernate-mapping>  
+     
+      <class name="com.cdac.Product" table="product">  
+        
+          <id name="pid">  
+         <generator class="assigned"></generator>  
+        </id>
+                          
+        <property name="pname"></property>  
+        <property name="pprice"></property>  
+        <property name="pquantity"></property>
+        <property name="pdiscount"></property>  
+      </class>  
+                
+     </hibernate-mapping>  
